@@ -1,5 +1,5 @@
 """
-WSGI config for kraken_backend_challenge project.
+WSGI config for meter_reader project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'kraken_backend_challenge.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'meter_reader.settings')
 
 application = get_wsgi_application()
